@@ -1,0 +1,2 @@
+numero = int(input('Digite um valor aqui: '))
+print(f'O valor de numero é {numero}, o dobro do valor de numero é {numero*2}, o triplo do valor de numero é {numero*3} o quadrado de numero é {numero**2} e a raiz quadrada de numero é {numero**(1/2)}')
