@@ -17,4 +17,5 @@ a = (1,2,3,4)
 b = (5,6,7,8)
 c = a + b # isso apenas somara as variáveis, apenas organizando-as em uma única tupla, seus valores não serão modificados
 print(c)
+print(c.index(5)) # mostra em qual posição determinado valor da variável se encontra, nesse caso, o valor 5 se encontra no elemento 4
 
