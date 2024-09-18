@@ -1,4 +1,3 @@
-from todos import moeda
-
-a = moeda.leiaDinheiro('Digite um valor aqui: ')
-moeda.resumo(a,80,35)
+from moeda import leiaDinheiro, resumo
+a = leiaDinheiro('Digite um valor aqui: R$ ')
+resumo(a, 80, 35)
